@@ -115,7 +115,6 @@ def linkedin_authentication(request):
         linkedin_profile.save()
 
     except LinkedinProfile.DoesNotExist:
-        email_response_str = ''
         if email_response_str != '':
             try:
                 user = User.objects.get(email__iexact=email_response_str)
@@ -138,7 +137,7 @@ def linkedin_authentication(request):
             request.session['profile_response_dict'] = profile_response_dict
             request.session['profile_response_json'] = profile_response_json
 
-            return HttpResponseRedirect(reverse('email_form'))
+            return HttpResponseRedirect(reverse('linkedin_email_form'))
 
     user.backend = "django.contrib.auth.backends.ModelBackend"
     login(request, user)
