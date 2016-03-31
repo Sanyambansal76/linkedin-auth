@@ -1,4 +1,4 @@
-# linkedin-auth
+# Linkedin-auth
 Linkedin-auth is an easy to setup linkedin authentication/registration mechanism with support for the Django Framework
 
 
