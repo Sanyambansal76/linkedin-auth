@@ -45,3 +45,14 @@ Quick start
 
 8. Visit http://127.0.0.1:8000/linkedin/ to participate in the linkedin authentication.
 
+#Features
+
+1. Access the LINKEDIN API, from Your website (Using OAuth)
+
+2. Django User Registration (Convert LINKEDIN user data into a user model)
+
+3. Store user data locally.
+
+4. LINKEDIN FQL access
+
+5. Automated reauthentication (For expired tokens)
