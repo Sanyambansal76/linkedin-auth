@@ -53,6 +53,6 @@ Quick start
 
 3. Store user data locally.
 
-4. LINKEDIN FQL access
+4. LINKEDIN QL access
 
 5. Automated reauthentication (For expired tokens)
